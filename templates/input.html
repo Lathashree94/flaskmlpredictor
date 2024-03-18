@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Market Prediction</title>
+</head>
+<body>
+    <h1>Enter Fish Details</h1>
+    <form action="/predict" method="post">
+        <label for="weight">Fish Weight:</label>
+        <input type="floatformat" id="weight" name="weight" required>
+        <br>
+        <label for="length1">Fish Length 1(cm):</label>
+        <input type="floatformat" id="length1" name="length1" required>
+        <br>
+        <label for="length2">Fish Length 2(cm):</label>
+        <input type="floatformat" id="length2" name="length2" required>
+        <br>
+        <label for="length3">Fish Length 3(cm):</label>
+        <input type="floatformat" id="length3" name="length3" required>
+        <br>
+        <label for="width">Fish Width (cm):</label>
+        <input type="floatformat" id="width" name="width" required>
+        <br>
+        <label for="height">Fish Height (cm):</label>
+        <input type="floatformat" id="height" name="height" required>
+        <br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
